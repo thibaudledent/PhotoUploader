@@ -1,10 +1,13 @@
 *.class
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+target/
+config.properties
+gallery_content.html
+imagesToUpload/
+PhotoUploader.iml
+.idea/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 
