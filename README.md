@@ -14,15 +14,15 @@ password=mypassword
 
 3. Run `uploadPhotos.bat`
 
-<a name="footnote1">1</a>: `PhotoUploader.jar` can be found in out\artifacts\PhotoUploader_jar
+<a name="footnote1">1</a>: `PhotoUploader.jar` can be found in `out\artifacts\PhotoUploader_jar`
 
 
 ## How to build jars from IntelliJ properly?
-- File -> Project Structure -> Project Settings -> Artifacts -> Jar -> From modules with dependencies...
+- `File -> Project Structure -> Project Settings -> Artifacts -> Jar -> From modules with dependencies...`
 - Extract to the target Jar
 - OK
 - Build | Build Artifact
 
-NB: Make sure your MANIFEST.MF is in:
- - src/main/resources/META_INF/
- - and NOT in src/main/java/META_INF/
+NB: Make sure your `MANIFEST.MF` is in:
+ - `src/main/resources/META_INF/`
+ - and NOT in `src/main/java/META_INF/`
