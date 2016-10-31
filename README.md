@@ -10,11 +10,11 @@ user=myuser
 password=mypassword
 ```
 
-2. Put `config.properties`, `wget.exe`, `uploadPhotos.bat`, `PhotoUploader.jar`* in the same folder alongside the photos you want to upload
+2. Put `config.properties`, `wget.exe`, `uploadPhotos.bat`, `PhotoUploader.jar`<sup>[1](#footnote1)</sup> in the same folder alongside the photos you want to upload
 
 3. Run `uploadPhotos.bat`
 
-* `PhotoUploader.jar` can be found in out\artifacts\PhotoUploader_jar
+<a name="footnote1">1</a>: `PhotoUploader.jar` can be found in out\artifacts\PhotoUploader_jar
 
 
 ## How to build jars from IntelliJ properly?
