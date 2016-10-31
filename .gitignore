@@ -1,5 +1,6 @@
 *.class
 
+PhotoUploader.jar
 target/
 config.properties
 gallery_content.html
